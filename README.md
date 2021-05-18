@@ -10,3 +10,5 @@ more granular understanding of the features that were influencing predicted inst
 I embarked on a predictive modelling project to train my python skills as well as my understanding of ML.
 
 Any feedback would be appreciated, thanks.
+
+Viewing is best via download and seen on JupyterNotebook 
