@@ -8,7 +8,22 @@ Under the champion model which falls under the LGBM modelling, Locally Interpret
 more granular understanding of the features that were influencing predicted instances.
 
 I embarked on a predictive modelling project to train my python skills as well as my understanding of ML.
+The project followed CRISP-DM Framework and went through initial pre-processing using VIF to handle data multicollinearity first before settling on a common dataset to be used across all models.
+(The VIF method is stored under the Logistic Regression file.)
+Hyperparameter tuning was conducted using gridsearchcv prior to training of the models to get the optimal parameters for each ML model.
+5 different ML models were trained and tested:
+1) Logistic Regression
+2) Decision Tree
+3) Random Forest Classifier
+4) LGBM
+5) XGBoost
+All models were fit into user-defined functions for easy calling and includes the performance metrics and data visualization of significant features.
+
+Model Interpretability
+LIME was also conducted at the end of the champion model which was under the LGBM file to explain individual instances' predicted value (the significance/weight of each independent variable affecting the churn of customers).
 
 Any feedback would be appreciated, thanks.
 
-Viewing is best via download and seen on JupyterNotebook 
+Viewing is best via download and seen on JupyterNotebook
+
+Thanks for taking the time to read it.
