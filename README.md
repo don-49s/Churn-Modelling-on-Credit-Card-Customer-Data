@@ -2,7 +2,7 @@
 
 ==UPDATE==
 Object oriented versions for the modellings are being created and stored in the Object Oriented Version Folder
-==========
+--
 
 The aim of this project was to predict customer churn based on a bank dataset with 10,000 unique records.
 The dataset was pulled from Kaggle and can be found via this link: https://www.kaggle.com/sakshigoyal7/credit-card-customers
