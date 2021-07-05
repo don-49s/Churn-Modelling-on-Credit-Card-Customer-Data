@@ -1,7 +1,7 @@
 # Churn-Modelling-on-Credit-Card-Customer-Data
 
 ==UPDATE==
-Object oriented versions for the modellings are being created and stored in the Object Oriented Version Folder
+Object oriented versions for the modellings are the latest versions being created and they are stored in the Object Oriented Version Folder
 --
 
 The aim of this project was to predict customer churn based on a bank dataset with 10,000 unique records.
