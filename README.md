@@ -1,9 +1,5 @@
 # Churn-Modelling-on-Credit-Card-Customer-Data
 
-==UPDATE==
-Champion model is light7 under lgbm_testing and was used as the model for LIME
---
-
 The aim of this project was to predict customer churn based on a bank dataset with 10,000 unique records.
 The dataset was pulled from Kaggle and can be found via this link: https://www.kaggle.com/sakshigoyal7/credit-card-customers
 
@@ -22,7 +18,9 @@ Hyperparameter tuning was conducted using gridsearchcv prior to training of the 
 4) LGBM
 5) XGBoost
 
-All models were fit into user-defined functions for easy calling and includes the performance metrics and data visualization of significant features.
+Individual classes were created for each machine learning model and called into the testing scripts.
+
+Champion model is light7 under lgbm_testing and was used as the model for LIME
 
 Model Interpretability
 LIME was also conducted at the end of the champion model which was under the LGBM file to explain individual instances' predicted value (the significance/weight of each independent variable affecting the churn of customers).
