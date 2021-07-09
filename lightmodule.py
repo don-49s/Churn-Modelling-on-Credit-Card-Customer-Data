@@ -85,8 +85,8 @@ class lgbm:
         print('pred_proba for test data:',self.pred_proba_test)
     
     def log_loss(self):
-        print('log loss on training data is ',log_loss(self.y_train, self.train_pred_proba))
-        print('log loss on testing data is ',log_loss(self.y_test,self.test_pred_proba))
+        print('log loss on training data is ',log_loss(self.y_train, self.pred_proba_train))
+        print('log loss on testing data is ',log_loss(self.y_test,self.pred_proba_test))
     
     def feature_importance(self):
         df = pd.DataFrame({'Feature_names':self.x_train.columns, 'Importances':self.model.feature_importances_})
@@ -157,8 +157,8 @@ class lgbm_unbalanced:
         print('pred_proba for test data:',self.pred_proba_test)
     
     def log_loss(self):
-        print('log loss on training data is ',log_loss(self.y_train, self.train_pred_proba))
-        print('log loss on testing data is ',log_loss(self.y_test,self.test_pred_proba))
+        print('log loss on training data is ',log_loss(self.y_train, self.pred_proba_train))
+        print('log loss on testing data is ',log_loss(self.y_test,self.pred_proba_test))
     
     def feature_importance(self):
         df = pd.DataFrame({'Feature_names':self.x_train.columns, 'Importances':self.model.feature_importances_})
